@@ -8,6 +8,3 @@ int get_first_digit (int num) {
 	return num / 10;
 }
 ```
-
-##### Related
-* [[Defect]]
