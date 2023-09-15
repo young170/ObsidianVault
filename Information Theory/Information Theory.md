@@ -1,49 +1,88 @@
 
 ## Introduction
 
-I stumbled upon this topic by pure chance.
-This collection of notes provides my understanding of the paper.
+I stumbled upon this topic by pure chance. It started with the paper, *'A Mathematical Theory of Communication' - C. E. Shannon*.
+This collection of notes provides my understanding of the paper. I try to understand, study, experience, make examples, etc. with topics I really want to dive into. Although these notes may not cover the entire topic, I worked hard to write them in the simplest way possible. Have fun.
 
-## Information
+## Information and its Measurement
 
-Information theory can be said to be derived from the data compression problem.
-Starting with the question, "how much can we compress?"
-This logically led to, "how much **information** is in the message?"
-Which raised the basis of information theory, "how do we measure **information**?"
+### What is information?
 
-It started with the paper, *'A Mathematical Theory of Communication' - C. E. Shannon*.
+"How much information is in a message?" is the question that started the theory, and already its hard even to understand the question. More simply put, the question could be re-written, "How many questions are needed to understand the message?"
 
-Before diving into what information is, Shannon describes a [[General Communication System]].
+A simple example of this question would be:
+Message1: "It is snowing on Mt. Everest."
+Message2: "It is snowing in the Sahara."
 
-## Measuring Information
+Obviously, the first message doesn't need much questioning. However, for message 2, one could ask a number of questions. "Do you mean the Sahara in the continent Africa?" and so on. These questions basically boil up to the fundamental question, "Are you sure?". Which asks for **certainty**.
 
-### Key properties
+Now we know somehow (although we don't know how, yet) **information** (the message) is connected with **certainty** (or uncertainty).
 
-1. **Information** $I(x)$ and **probability** $P(x)$ are inversely related
-	1. [[Uncertainty & Information]]
-2. $I(x) \ge 0$, observing event $x$ never causes a loss of information
-	1. Information is non-negative
-3. $P(x) = 1 => I(x) = 0$ 
-	1. If an event is certain to occur, it yields no information
-4. $P(x \cap y) = P(x) \cdot P(y) => I(x \cap y) = I(x) + I(y)$
-	1. If $x$ and $y$ are independent events, then the total information is the sum of each information
+After reading the example above again, one can conclude this:
+* 'An event that has a **high probability** to occur provides **low information** content'
+* 'An event that has a **low probability** to occur provides **high information** content'
+Or, one could say the more likely an event is to occur, we can correctly guess the event.
 
-### Self Information
+Using mathematical words:
+> **Information** $I(x)$ and **probability** $P(x)$ are inversely related
 
-$I(x) = \log _b (1/P(x)) = - \log_b P(x)$
+Visually, (known as the inverse $log$ graph)
+![[inverse_proportion_solution.jpg]]
+As the probability (x-axis) increases, information (y-axis) decreases.
 
-* Measures the information after observing event $x$ with probability $P(x)$
-* Satisfies the key properties
-* The base of the $\log$ is usually 2, which represents bits
+Some properties we can learn from just this property are:
+* If an event is certain to occur (100% probability), it yields no information.
+	* $P(x) = 1 => I(x) = 0$
+* An event never causes a loss of information.
+	* $I(x) \ge 0$
 
-## Information Entropy
+### Mathematical Representation of Information
 
-> "...no one really knows what entropy really is, so in a debate you will always have the advantage"
-> - John von Neumann
+Now that we have a graph and some properties, we just need a mathematical statement that describes information in terms of probability. Lets simply plug in the variables we learned into the graph:
+> $I(x) = - \log_b P(x) = \log _b (1/P(x))$
 
-$H(X) = \sum_{i=1}^n P(x_i) \cdot I(x_i)$
+Wait a minute... what is the $b$? The $b$ is known as the base of the $log$, which determines the standard of the current $log$ function. Normally, this value would be $10$ (just like how we count numbers), but in this case it is going to be $2$. This is to represent bits. Bits are how computers count numbers.
 
-As a message's length approaches $\infty$, the average length per symbol $L$ never gets lower than the entropy value $H(X)$
+### Information and Uncertainty
+
+Now remember what we learned earlier...
+> **information** (the message) is connected with **certainty** (or uncertainty).
+
+We dealt with information, its time for uncertainty (the reason I chose uncertainty will be explained).
+
+Before explaining uncertainty, lets give it a name. Just as the message was given a proper name of **information**, uncertainty is too general of a word. Here's an idea from John von Neumann...
+> "...no one really knows what entropy really is, so in a debate you will always have the advantage" - John von Neumann
+
+No one can really argue with him right? Lets re-write the title of this chapter.
+
+### Information and ~~Uncertainty~~ Entropy
+
+This time the mathematical expression is given first,
+> $H(X) = \sum_{i=1}^n P(x_i) \cdot I(x_i)$
+
+Here the entropy $H(X)$ is represented by the multiple of the probability $P(x)$ and information $I(X)$.
+An example,
+```
+Events = [
+	A: P(0.50), I(1)
+	B: P(0.25), I(2)
+	C: P(0.25), I(2)
+]
+
+Entropy = [
+	A: 0.5
+	B: 0.5
+	C: 0.5
+]
+```
+
+The sum of the entropy $H(X)$ would be 1.5. Then what does this mean? And why are they all constant?
+
+## Information Systems
+
+## [[General Communication System]]
+
+Shannon also defined a simple yet effective system for communication.
 
 ##### Reference
 [Foundations of information theory: Part 1, 2, 3)](https://mbernste.github.io/posts/self_info/)
