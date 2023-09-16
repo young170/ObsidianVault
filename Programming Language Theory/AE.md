@@ -6,7 +6,7 @@ Arithmetic Expressions.
 		| {+ <AE> <AE>}
 		| {- <AE> <AE>}
 ```
-The reason the BNF **substitutes** AE instead of num is to allow expansions:
+The reason the BNF **substitutes** `AE` instead of `num` is to allow substitutions:
 
 ## Syntax of AE
 ```
