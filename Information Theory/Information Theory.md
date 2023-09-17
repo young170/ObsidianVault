@@ -60,23 +60,22 @@ No one can really argue with him right? Lets re-write the title of this chapter.
 This time the mathematical expression is given first,
 > $H(X) = \sum_{i=1}^n P(x_i) \cdot I(x_i)$
 
-Here the entropy $H(X)$ is represented by the multiple of the probability $P(x)$ and information $I(X)$.
-An example,
-```
-Events = [
-	A: P(0.50), I(1)
-	B: P(0.25), I(2)
-	C: P(0.25), I(2)
-]
+As we already know information $I(x)$ in terms of probability $P(x)$, we can re-write it,
+> $H(X) = \sum_{i=1}^n P(x_i) \cdot \log _b (1/P(x))$
 
-Entropy = [
-	A: 0.5
-	B: 0.5
-	C: 0.5
-]
-```
-
-The sum of the entropy $H(X)$ would be 1.5. Then what does this mean? And why are they all constant?
+Illustration of how this entropy equation works in two simple examples,
+1. A classic, coin toss.
+	1. $P(x) = 1/2$
+	2. $H(X) = \sum_{i=1}^n (1/2) \cdot \log _b (1/(1/2))$
+	3. $H(X) = (1/2) + (1/2)$
+	4. $H(X) = 1$
+	5. This means either uncertainty values, heads or tails, have an equal chance of occurring. Therefore, the entropy is equally closely associated to the events.
+2. Choosing among an Apple user and $6$ Galaxy users.
+	2. $x_1: (1/7) \cdot \log _b (1/(1/7)) = (0.86 \times 0.22)$
+	3. $x_2: (6/7) \cdot \log _b (1/(6/7)) = (0.14 \times 2.81)$
+	4. $\sum_{i=1}^2 x_i = 0.59$
+	5. $\therefore H(X) = 0.59$
+	6. The result is interesting, although the uncertainty value of an Apple user being chosen is really high (2.81), the probability of a Galaxy user being chosen is high enough to overrule it. Therefore, the resulting entropy is closer to the uncertainty of a Galaxy user being chosen.
 
 ## Information Systems
 
@@ -88,3 +87,4 @@ Shannon also defined a simple yet effective system for communication.
 [Foundations of information theory: Part 1, 2, 3)](https://mbernste.github.io/posts/self_info/)
 [Mathematics of Information](http://www.ece.virginia.edu/~ffh8x/moi/index.html)
 [Huffman Codes: An Information Theory Perspective](https://www.youtube.com/watch?v=B3y0RsVCyrw)
+[Entropy (for data science) Clearly Explained!!!](https://www.youtube.com/watch?app=desktop&v=YtebGVx-Fxw)

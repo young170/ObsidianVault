@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1512c3826b3d3abe",
+        "id": "a257519c5f62c3db",
         "type": "tabs",
         "children": [
           {
-            "id": "4c30af749c351e0f",
+            "id": "ea9bfc28987e8632",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Information Theory.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 300
   },
   "right": {
     "id": "4112e7f66a1e467a",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Information Theory/Information Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Information Theory/Information Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Information Theory/Information Theory.md"
+              }
             }
           },
           {
@@ -130,7 +138,7 @@
             }
           },
           {
-            "id": "79d2645161ece283",
+            "id": "007e244c15068d22",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,36 +164,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c30af749c351e0f",
+  "active": "ea9bfc28987e8632",
   "lastOpenFiles": [
-    "Automata & Formal Languages/Automata & Formal Languages.md",
-    "Programming Language Theory/Parser.md",
-    "Programming Language Theory/WAE.md",
-    "Programming Language Theory/Programming Language Theory.md",
-    "Programming Language Theory/Interpreter.md",
-    "Automata & Formal Languages",
-    "BNF.md",
-    "Programming Language Theory/Identifier.md",
-    "Programming Language Theory/AE.md",
-    "Programming Language Theory/Substitution.md",
-    "23-2/PLT.canvas",
-    "Definitions/Semantics.md",
-    "Information Theory/Information Theory.md",
-    "Automata/Automata.md",
-    "Information Theory/General Communication System.md",
-    "inverse_proportion_solution.jpg =100x20.md",
-    "Images/inverse_proportion_solution.jpg",
-    "Information Theory/Uncertainty & Information.md",
-    "README.md",
-    "Images/Shannons-schematic-diagram-of-a-general-communication-system-Shannon-1948a.png",
-    "Automata",
-    "IoT System Design/Active-high.md",
-    "IoT System Design/non-blocking coding.md",
-    "Information Theory",
-    "IoT System Design/Active-low.md",
-    "IoT System Design/Hardware engineering.md",
     "IoT System Design/Clock.md",
+    "IoT System Design/Active-high.md",
+    "Definitions/GND.md",
+    "IoT System Design/Active-low.md",
+    "Automata & Formal Languages/Automata & Formal Languages.md",
+    "Programming Language Theory/WAE.md",
+    "Programming Language Theory/Identifier.md",
+    "Programming Language Theory/BNF.md",
+    "Proof by Contradiction.md",
+    "Information Theory/General Communication System.md",
+    "Information Theory/Information Theory.md",
+    "Images/inverse_proportion_solution.jpg",
+    "General Communication System.md",
+    "Information Theory/Uncertainty & Information.md",
+    "Information Theory",
+    "Images/Shannons-schematic-diagram-of-a-general-communication-system-Shannon-1948a.png",
+    "Automata & Formal Languages",
+    "IoT System Design/Non-blocking coding.md",
+    "IoT System Design/Hardware engineering.md",
+    "Definitions/Semantics.md",
+    "Definitions/Syntax.md",
+    "Programming Language Theory/Programming Language Theory.md",
+    "Programming Language Theory/Parser.md",
+    "Programming Language Theory/Interpreter.md",
+    "Programming Language Theory/AE.md",
+    "Definitions/Error.md",
+    "Definitions/Defect.md",
+    "IoT System Design/Rbpi.md",
     "IoT System Design",
-    "Definitions/GND.md"
+    "README.md"
   ]
 }
