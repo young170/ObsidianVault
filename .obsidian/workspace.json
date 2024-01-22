@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a257519c5f62c3db",
+        "id": "f40d771dc1a1fe4e",
         "type": "tabs",
         "children": [
           {
-            "id": "ea9bfc28987e8632",
+            "id": "0d46fa5b872f5de8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Information Theory.md",
+                "file": "File System Camp Day 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4112e7f66a1e467a",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Theory/Information Theory.md",
+                "file": "File System Camp Day 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Theory/Information Theory.md",
+                "file": "File System Camp Day 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Theory/Information Theory.md"
+                "file": "File System Camp Day 2.md"
               }
             }
           },
@@ -143,7 +144,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -152,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,8 +168,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea9bfc28987e8632",
+  "active": "0d46fa5b872f5de8",
   "lastOpenFiles": [
+    "LEAF.png",
+    "Pasted image 20240119114707.png",
+    "Pasted image 20240119114631.png",
+    "Pasted image 20240119112713.png",
+    "Pasted image 20240119112650.png",
+    "Pasted image 20240119112312.png",
+    "Pasted image 20240119112244.png",
+    "Screenshot 2024-01-19 at 11.00.06.png",
+    "Screenshot 2024-01-19 at 10.59.42 1.png",
+    "Screenshot 2024-01-19 at 10.59.55.png",
+    "Screenshot 2024-01-19 at 10.59.42.png",
+    "File System Camp Day 2.md",
+    "File System Camp Day 1.md",
+    "PAM Seminar.md",
+    "Software Engineering/Seminar/Code Generation-in the Perspective of Software Engineering.md",
+    "Software Engineering/Seminar",
+    "Software Engineering",
+    "Untitled.canvas",
+    "Information Theory/Information Theory.md",
     "IoT System Design/Clock.md",
     "IoT System Design/Active-high.md",
     "Definitions/GND.md",
@@ -176,12 +199,9 @@
     "Programming Language Theory/BNF.md",
     "Proof by Contradiction.md",
     "Information Theory/General Communication System.md",
-    "Information Theory/Information Theory.md",
-    "Images/inverse_proportion_solution.jpg",
     "General Communication System.md",
     "Information Theory/Uncertainty & Information.md",
     "Information Theory",
-    "Images/Shannons-schematic-diagram-of-a-general-communication-system-Shannon-1948a.png",
     "Automata & Formal Languages",
     "IoT System Design/Non-blocking coding.md",
     "IoT System Design/Hardware engineering.md",
@@ -191,10 +211,6 @@
     "Programming Language Theory/Parser.md",
     "Programming Language Theory/Interpreter.md",
     "Programming Language Theory/AE.md",
-    "Definitions/Error.md",
-    "Definitions/Defect.md",
-    "IoT System Design/Rbpi.md",
-    "IoT System Design",
-    "README.md"
+    "IoT System Design"
   ]
 }
