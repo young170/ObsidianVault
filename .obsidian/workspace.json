@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f40d771dc1a1fe4e",
+        "id": "c2dfce2885eee0a7",
         "type": "tabs",
         "children": [
           {
-            "id": "0d46fa5b872f5de8",
+            "id": "ba93214cbdc6a1bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File System Camp Day 2.md",
+                "file": "01-ISEL/Papers/Automatically Generating Search Heuristics for Concolic Testing, ICSE '18.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "463e073846675696",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-ISEL/KCSE 2024/Data-driven software testing.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "4112e7f66a1e467a",
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File System Camp Day 2.md",
+                "file": "01-ISEL/Papers/Automatically Generating Search Heuristics for Concolic Testing, ICSE '18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "File System Camp Day 2.md",
+                "file": "01-ISEL/Papers/Automatically Generating Search Heuristics for Concolic Testing, ICSE '18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "File System Camp Day 2.md"
+                "file": "01-ISEL/Papers/Automatically Generating Search Heuristics for Concolic Testing, ICSE '18.md"
               }
             }
           },
@@ -168,49 +179,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d46fa5b872f5de8",
+  "active": "ba93214cbdc6a1bc",
   "lastOpenFiles": [
-    "LEAF.png",
-    "Pasted image 20240119114707.png",
-    "Pasted image 20240119114631.png",
-    "Pasted image 20240119112713.png",
-    "Pasted image 20240119112650.png",
-    "Pasted image 20240119112312.png",
-    "Pasted image 20240119112244.png",
-    "Screenshot 2024-01-19 at 11.00.06.png",
-    "Screenshot 2024-01-19 at 10.59.42 1.png",
-    "Screenshot 2024-01-19 at 10.59.55.png",
-    "Screenshot 2024-01-19 at 10.59.42.png",
-    "File System Camp Day 2.md",
-    "File System Camp Day 1.md",
-    "PAM Seminar.md",
-    "Software Engineering/Seminar/Code Generation-in the Perspective of Software Engineering.md",
+    "01-ISEL/KCSE 2024/Data-driven software testing.md",
+    "01-ISEL/Papers/Automatically Generating Search Heuristics for Concolic Testing, ICSE '18.md",
+    "01-ISEL/KCSE 2024/FunProbe.md",
+    "01-ISEL/KCSE 2024/Automated Debugging.md",
+    "01-ISEL/Papers",
+    "01-ISEL/KCSE 2024/AI4SE 4.md",
+    "01-ISEL/Code Generation-in the Perspective of Software Engineering.md",
+    "Untitled.md",
+    "23-2/PLT.canvas",
+    "01-ISEL/A Survey on Hallucination in Large Language Models.md",
+    "01-ISEL",
+    "01-ISEL/PAM Seminar.md",
+    "File System Camp/Screenshot 2024-01-19 at 10.59.42.png",
+    "File System Camp/Pasted image 20240119114707.png",
+    "File System Camp/Screenshot 2024-01-19 at 11.00.06.png",
+    "File System Camp/Screenshot 2024-01-19 at 10.59.55.png",
+    "File System Camp/Screenshot 2024-01-19 at 10.59.42 1.png",
+    "README.md",
+    "File System Camp/Pasted image 20240119114631.png",
+    "File System Camp/Pasted image 20240119112713.png",
+    "File System Camp/Pasted image 20240119112650.png",
+    "File System Camp/Pasted image 20240119112312.png",
+    "File System Camp/Pasted image 20240119112244.png",
+    "File System Camp",
+    "01-ISEL/KCSE 2024",
+    "01-ISEL/KCSE 2024/Requirement Engineering 1.md",
+    "Automata & Formal Languages/Automata & Formal Languages.md",
+    "Programming Language Theory/WAE.md",
+    "Programming Language Theory/Parser.md",
+    "Untitled.canvas",
+    "File System Camp/File System Camp Day 2.md",
+    "File System Camp/File System Camp Day 1.md",
     "Software Engineering/Seminar",
     "Software Engineering",
-    "Untitled.canvas",
     "Information Theory/Information Theory.md",
     "IoT System Design/Clock.md",
     "IoT System Design/Active-high.md",
     "Definitions/GND.md",
     "IoT System Design/Active-low.md",
-    "Automata & Formal Languages/Automata & Formal Languages.md",
-    "Programming Language Theory/WAE.md",
     "Programming Language Theory/Identifier.md",
     "Programming Language Theory/BNF.md",
     "Proof by Contradiction.md",
     "Information Theory/General Communication System.md",
     "General Communication System.md",
-    "Information Theory/Uncertainty & Information.md",
     "Information Theory",
     "Automata & Formal Languages",
-    "IoT System Design/Non-blocking coding.md",
-    "IoT System Design/Hardware engineering.md",
-    "Definitions/Semantics.md",
-    "Definitions/Syntax.md",
-    "Programming Language Theory/Programming Language Theory.md",
-    "Programming Language Theory/Parser.md",
-    "Programming Language Theory/Interpreter.md",
-    "Programming Language Theory/AE.md",
     "IoT System Design"
   ]
 }
